@@ -4,7 +4,7 @@
 #include "Wire.h"
 
 
- HSC PS(0x28);
+ HSC PS = HSC(0x28);
 void setup()
 {
   
